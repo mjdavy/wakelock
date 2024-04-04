@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:wakelock_platform_interface/wakelock_platform_interface.dart';
 import 'package:win32/win32.dart';
 
+
 /// Informs the system that the state being set should remain in effect until
 /// the next call that uses ES_CONTINUOUS and one of the other state flags is
 /// cleared.
